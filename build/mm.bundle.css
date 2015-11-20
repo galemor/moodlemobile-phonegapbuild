@@ -4767,10 +4767,11 @@ ion-tabs.tabs-color-active-dark .tab-item {
 .item, .item h1, .item h2, .item .item-heading, .item h3, .item h4, .item h5, .item h6, .item p, .item-content, .item-content h1, .item-content h2, .item-content .item .item-heading, .item .item-content .item-heading, .item-content h3, .item-content h4, .item-content h5, .item-content h6, .item-content p {
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap; }
+  white-space: nowrap; 
+  color: #64AC30;}
 
 a.item {
-  color: inherit;
+  color: #64AC30;
   text-decoration: none; }
   a.item:hover, a.item:focus {
     text-decoration: none; }
@@ -7715,21 +7716,21 @@ em {
  */
 .bar-content {
   border-color: transparent;
-  background-color: #66CC33;
+  background-color: #64AC30;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff; }
   .bar-content .title {
     color: #fff; }
   .bar-content .button {
     border-color: transparent;
-    background-color: #66CC33;
+    background-color: #64AC30;
     color: #fff; }
     .bar-content .button:hover {
       color: #fff;
       text-decoration: none; }
     .bar-content .button.active, .bar-content .button.activated {
       border-color: transparent;
-      background-color: #66CC33;
+      background-color: #64AC30;
       box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.1); }
     .bar-content .button.button-clear {
       border-color: transparent;
@@ -7959,7 +7960,7 @@ img.mm-media-adapt-width {
 
 .bar-side-menu {
   border-color: transparent;
-  background-color: #66CC33;
+  background-color: #64AC30;
   background-image: linear-gradient(0deg, transparent, transparent 50%, transparent 50%);
   color: #fff;
   height: 80px !important; }
