@@ -4771,7 +4771,7 @@ ion-tabs.tabs-color-active-dark .tab-item {
  }
 
 a.item {
-  color: #64AC30;
+  color: inherit;
   text-decoration: none; }
   a.item:hover, a.item:focus {
     text-decoration: none; }
